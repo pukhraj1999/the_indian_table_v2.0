@@ -2,12 +2,18 @@ import React, { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import logo from "../assets/header/logo.png";
 import Dot from "./Components/Dot";
+import "./Navbar.css";
 
 function Navbar() {
   let route = useLocation().pathname;
+  const displayMenu = () => {
+    const menu = document.getElementById("menu");
+    menu.classList.toggle("hidden");
+    menu.classList.toggle("menu");
+  };
   return (
     <header>
-      <nav className="flex justify-between items-center p-4">
+      <nav className="flex justify-between items-center p-4 lg:py-4 2xl:py-4 lg:px-10 2xl:px-10">
         <div className="nav__left">
           <img className="h-20" src={logo} alt="" />
         </div>
@@ -81,7 +87,64 @@ function Navbar() {
           </NavLink>
         </div>
       </nav>
-      <h1>Forget about everyone</h1>
+      <div
+        id="menu"
+        className="hidden text-white [&>a]:my-4 [&>a]:px-4 hover:text-primary"
+      >
+        <NavLink
+          onClick={() => {
+            displayMenu();
+          }}
+          to="/"
+        >
+          Home
+        </NavLink>
+        <hr className="text-primary mx-4" />
+        <NavLink
+          onClick={() => {
+            displayMenu();
+          }}
+          to="/menus"
+        >
+          Menus
+        </NavLink>
+        <hr className="text-primary mx-4" />
+        <NavLink
+          onClick={() => {
+            displayMenu();
+          }}
+          to="/gallery"
+        >
+          Gallery
+        </NavLink>
+        <hr className="text-primary mx-4" />
+        <NavLink
+          onClick={() => {
+            displayMenu();
+          }}
+          to="/about"
+        >
+          About
+        </NavLink>
+        <hr className="text-primary mx-4" />
+        <NavLink
+          onClick={() => {
+            displayMenu();
+          }}
+          to="/contactus"
+        >
+          ContactUs
+        </NavLink>
+        <hr className="text-primary mx-4" />
+      </div>
+      <div className="menuIcon">
+        <i
+          className="text-primary text-2xl px-4 py-4 fa-solid fa-bars-staggered"
+          onClick={() => {
+            displayMenu();
+          }}
+        ></i>
+      </div>
     </header>
   );
 }
