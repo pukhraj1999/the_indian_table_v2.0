@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/contactus" element={<ContactUs />} />
         {/* <Route path="*" element={<Error />} /> */}
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
