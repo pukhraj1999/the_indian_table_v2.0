@@ -54,6 +54,7 @@ function ContactUs() {
         <div className="flex justify-center items-center my-4">
           <div className="border-2 border-primary rounded-2xl">
             <iframe
+              title="location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.9253239012733!2d151.6687316!3d-32.900142599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b733fd111ae9fbf%3A0x999426709f73273b!2sThe%20Indian%20table!5e0!3m2!1sen!2sin!4v1667351857621!5m2!1sen!2sin"
               style={{
                 filter: "invert(90%)",
