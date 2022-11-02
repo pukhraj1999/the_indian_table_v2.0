@@ -4,7 +4,12 @@ import OpeningHour from "./Components/OpeningHour";
 
 function Footer() {
   return (
-    <div className="mt-1">
+    <div
+      className=""
+      style={{
+        marginTop: "2rem",
+      }}
+    >
       <div className="h-[2px] bg-primary"></div>
       <div className="bg-black ">
         <div className="text-white grid 2xl:grid-cols-3 lg:grid-cols-3 pt-20 [&>*]:my-5">

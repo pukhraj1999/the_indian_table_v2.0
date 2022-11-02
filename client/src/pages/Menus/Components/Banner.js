@@ -9,6 +9,7 @@ function Banner({ pic, link }) {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         width: "100%",
+        marginBlock: "2rem",
       }}
     >
       <div className="flex justify-center items-center">

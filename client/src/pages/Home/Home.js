@@ -42,7 +42,6 @@ function Home() {
             <img
               style={{
                 translate: "-3% -3%",
-                animation: "bounce 1.5s ease-in-out infinite alternate both",
               }}
               className="h-[300px] w-[300px] lg:h-[500px] lg:w-[500px] 2xl:h-[500px] 2xl:w-[500px] rounded-2xl"
               src={food10}

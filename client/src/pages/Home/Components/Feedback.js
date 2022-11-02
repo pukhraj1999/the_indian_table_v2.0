@@ -28,18 +28,13 @@ function Feedback() {
   };
   return (
     <div>
-      <div className="flex justify-center items-center my-3">
+      <div className="flex justify-center items-center my-6">
         <div className="bg-secondary w-[1.5rem] h-[2px]"></div>
         <p className="text-2xl px-1">Feedbacks</p>
         <div className="bg-secondary w-[1.5rem] h-[2px]"></div>
       </div>
-      <div className="my-3 mx-10 lg:mx-20 2xl:mx-20 border-2 border-primary rounded-2xl">
-        <div
-          className="bg-gray p-4 rounded-2xl"
-          style={{
-            translate: "-3% -3%",
-          }}
-        >
+      <div className="my-3 mx-10 lg:mx-20 2xl:mx-20 border-2 border-primary rounded-2xl bg-gray">
+        <div className=" p-4 rounded-2xl">
           <p className="text-lg">{data[Idx].review}</p>
           <div className="flex justify-center [&>*]:mx-2 text-secondary">
             <button

@@ -14,11 +14,6 @@ nav {
   -webkit-animation: dropLeft 1.5s ease-in-out;
   animation: dropLeft 1.5s ease-in-out;
 }
-.nav__mid {
-  cursor: pointer;
-  -webkit-animation: bounce 2s ease-in-out infinite alternate both;
-  animation: bounce 2s ease-in-out infinite alternate both;
-}
 .nav__right {
   -webkit-animation: dropRight 1.5s ease-in-out;
   animation: dropRight 1.5s ease-in-out;

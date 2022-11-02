@@ -17,7 +17,7 @@ function Navbar() {
         <div className="nav__left">
           <img className="h-20" src={logo} alt="" />
         </div>
-        <div className="nav__mid flex justify-between items-center [&>*]:mx-2">
+        {/* <div className="nav__mid flex justify-between items-center [&>*]:mx-2">
           <NavLink
             className={
               route === "/"
@@ -38,16 +38,7 @@ function Navbar() {
           >
             <Dot />
           </NavLink>
-          <NavLink
-            className={
-              route === "/about"
-                ? "[&>*]:bg-primary [&>*]:h-5 [&>*]:w-5"
-                : "[&>*]:bg-black"
-            }
-            to="/about"
-          >
-            <Dot />
-          </NavLink>
+
           <NavLink
             className={
               route === "/gallery"
@@ -55,6 +46,16 @@ function Navbar() {
                 : "[&>*]:bg-black"
             }
             to="/gallery"
+          >
+            <Dot />
+          </NavLink>
+          <NavLink
+            className={
+              route === "/about"
+                ? "[&>*]:bg-primary [&>*]:h-5 [&>*]:w-5"
+                : "[&>*]:bg-black"
+            }
+            to="/about"
           >
             <Dot />
           </NavLink>
@@ -68,7 +69,7 @@ function Navbar() {
           >
             <Dot />
           </NavLink>
-        </div>
+        </div> */}
         <div className="nav__right text-white [&>*]:mx-4 ">
           <NavLink className="hover:text-primary" to="/">
             Home
@@ -76,11 +77,12 @@ function Navbar() {
           <NavLink className="hover:text-primary" to="/menus">
             Menus
           </NavLink>
-          <NavLink className="hover:text-primary" to="/about">
-            About Us
-          </NavLink>
+
           <NavLink className="hover:text-primary" to="/gallery">
             Gallery
+          </NavLink>
+          <NavLink className="hover:text-primary" to="/about">
+            About Us
           </NavLink>
           <NavLink className="hover:text-primary" to="/contactus">
             Conatct Us
