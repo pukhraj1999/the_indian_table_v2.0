@@ -115,21 +115,20 @@ function Navbar() {
           onClick={() => {
             displayMenu();
           }}
-          to="/about"
+          to="/gallery"
         >
-          About Us
+          Gallery
         </NavLink>
         <hr className="text-primary mx-4" />
         <NavLink
           onClick={() => {
             displayMenu();
           }}
-          to="/gallery"
+          to="/about"
         >
-          Gallery
+          About Us
         </NavLink>
         <hr className="text-primary mx-4" />
-
         <NavLink
           onClick={() => {
             displayMenu();

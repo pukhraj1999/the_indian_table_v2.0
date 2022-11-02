@@ -56,7 +56,7 @@ function Home() {
         <p className="text-2xl px-1">Popular Dishes</p>
         <div className="bg-secondary w-[1.5rem] h-[2px]"></div>
       </div>
-      <div className="grid lg:grid-cols-3 2xl:grid-cols-3 mx-6 [&>*]:p-4 [&>*]:m-2">
+      <div className="grid lg:grid-cols-3 2xl:grid-cols-3 [&>*]:p-4 [&>*]:my-2">
         <Card
           title="ALOO KI CHATPATI CHAAT"
           content="Lightly spiced potato cutlets finished with chickpeas & topped
