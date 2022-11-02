@@ -37,17 +37,8 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center my-4">
-          <div className="border-2 border-primary rounded-2xl lg:m-8 2xl:m-8 m-4">
-            <img
-              style={{
-                translate: "-2% -2%",
-              }}
-              className="rounded-2xl"
-              src={food10}
-              alt=""
-            />
-          </div>
+        <div className="flex justify-center items-center m-4">
+          <img className="rounded-2xl" src={food10} alt="" />
         </div>
       </div>
       {/* Dishes */}

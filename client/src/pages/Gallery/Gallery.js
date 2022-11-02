@@ -45,14 +45,14 @@ function Gallery() {
         id="gallery"
         className="grid md:grid-cols-2 2xl:grid-cols-4 lg:grid-cols-4"
       >
-        <Card pic={place1} isBorderLeft={true} />
-        <Card pic={place2} isBorderLeft={false} />
-        <Card pic={place3} isBorderLeft={true} />
-        <Card pic={place4} isBorderLeft={false} />
-        <Card pic={place5} isBorderLeft={true} />
-        <Card pic={food2} isBorderLeft={false} />
-        <Card pic={food3} isBorderLeft={true} />
-        <Card pic={food4} isBorderLeft={false} />
+        <Card pic={place1} />
+        <Card pic={place2} />
+        <Card pic={place3} />
+        <Card pic={place4} />
+        <Card pic={place5} />
+        <Card pic={food2} />
+        <Card pic={food3} />
+        <Card pic={food4} />
       </div>
     </div>
   );

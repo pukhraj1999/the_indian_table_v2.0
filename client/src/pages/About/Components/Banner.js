@@ -18,20 +18,11 @@ function Banner({ pic, title, content, orderChange, isBorderLeft }) {
         </div>
       </div>
       <div
-        className={`flex justify-center items-center ${
+        className={`flex justify-center items-center m-4 ${
           orderChange ? `2xl:order-1 lg:order-1` : ``
         }`}
       >
-        <div className="border-2 border-primary rounded-2xl lg:m-8 2xl:m-8 m-4">
-          <img
-            style={{
-              translate: isBorderLeft ? "2% 2%" : "-2% -2%",
-            }}
-            className=" rounded-2xl"
-            src={pic}
-            alt=""
-          />
-        </div>
+        <img className=" rounded-2xl" src={pic} alt="" />
       </div>
     </div>
   );
