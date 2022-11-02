@@ -77,7 +77,7 @@ function Navbar() {
             Menus
           </NavLink>
           <NavLink className="hover:text-primary" to="/about">
-            About
+            About Us
           </NavLink>
           <NavLink className="hover:text-primary" to="/gallery">
             Gallery
@@ -115,7 +115,7 @@ function Navbar() {
           }}
           to="/about"
         >
-          About
+          About Us
         </NavLink>
         <hr className="text-primary mx-4" />
         <NavLink
