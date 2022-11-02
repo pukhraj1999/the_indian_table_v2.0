@@ -1,5 +1,11 @@
 import React from "react";
+import Feedback from "./Components/Feedback";
+import Card from "./Components/Card";
+
 import food10 from "../../assets/gallery/food10.jpg";
+import food1 from "../../assets/gallery/food1.jpg";
+import food2 from "../../assets/gallery/food2.jpg";
+import food3 from "../../assets/gallery/food3.jpg";
 
 function Home() {
   return (
@@ -45,6 +51,35 @@ function Home() {
           </div>
         </div>
       </div>
+      {/* Dishes */}
+      <div className="flex justify-center items-center my-3">
+        <div className="bg-secondary w-[1.5rem] h-[2px]"></div>
+        <p className="text-2xl px-1">Popular Dishes</p>
+        <div className="bg-secondary w-[1.5rem] h-[2px]"></div>
+      </div>
+      <div className="grid lg:grid-cols-3 2xl:grid-cols-3 mx-6 [&>*]:p-4 [&>*]:m-2">
+        <Card
+          title="ALOO KI CHATPATI CHAAT"
+          content="Lightly spiced potato cutlets finished with chickpeas & topped
+          with a combination of yoghurt, mint & tamarind chutney."
+          price="$13.59"
+          pic={food1}
+        />
+        <Card
+          title="PUNJABI PAKORA (V)"
+          content="Crisp deep fried croquets of onion, mix-veggies & spinach made in traditional Punjabi style."
+          price="$17.90"
+          pic={food2}
+        />
+        <Card
+          title="CHICKEN 65"
+          content="A tangy street speciality from South India, chicken chunks flavoured with spices & tossed with shallots & curry leaves."
+          price="$16.59"
+          pic={food3}
+        />
+      </div>
+
+      <Feedback />
     </div>
   );
 }
