@@ -29,13 +29,13 @@ function Footer() {
             <div>
               <h1 className="text-2xl text-bold">OPENING HOURS</h1>
               <div className="py-2">
-                <OpeningHour day="Sunday" hours="5:00 PM to 8:45 PM" />
-                <OpeningHour day="Monday" hours="5:00 PM to 8:45 PM" />
-                <OpeningHour day="Tuesday" hours="5:00 PM to 8:45 PM" />
-                <OpeningHour day="Wednesday" hours="5:00 PM to 8:45 PM" />
-                <OpeningHour day="Thursday" hours="5:00 PM to 9:45 PM" />
-                <OpeningHour day="Friday" hours="5:00 PM to 9:45 PM" />
-                <OpeningHour day="Saturday" hours="5:00 PM to 8:45 PM" />
+                <OpeningHour day="Sunday" hours="9:00 AM to 2:00 PM" />
+                <OpeningHour day="Monday" hours="5:00 AM to 9:00 PM" />
+                <OpeningHour day="Tuesday" hours="Closed" />
+                <OpeningHour day="Wednesday" hours="5:00 AM to 9:00 PM" />
+                <OpeningHour day="Thursday" hours="5:00 AM to 9:00 PM" />
+                <OpeningHour day="Friday" hours="5:00 AM to 10:00 PM" />
+                <OpeningHour day="Saturday" hours="9:00 AM to 2:00 PM" />
               </div>
             </div>
           </div>
@@ -47,23 +47,23 @@ function Footer() {
                   target="__blank"
                   href="https://www.google.com/maps/place/The+Indian+table/@-32.9001426,151.6665429,17z/data=!3m1!4b1!4m5!3m4!1s0x6b733fd111ae9fbf:0x999426709f73273b!8m2!3d-32.9001841!4d151.668693"
                 >
-                  68 Nelson St, Wallsend <br />
+                  10/68 Nelson St, Wallsend <br />
                   NSW 2287, Australia
                 </a>
               </p>
               <a
                 className="text-md text-bold text-gray-500 py-2 mt-10"
                 target="_blank"
-                href="mailto:anz.support@datman.je"
+                href="mailto:theindiantable2021@gmail.com"
               >
-                Email:- anz.support@datman.je <br />
+                Email:- theindiantable2021@gmail.com <br />
               </a>
               <a
                 className="text-md text-bold text-gray-500"
                 target="_blank"
                 href="tel:0249500621"
               >
-                Phone:- 0249500621
+                Phone:- 02 4950 0621
               </a>
             </div>
           </div>

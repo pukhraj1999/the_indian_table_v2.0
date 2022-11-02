@@ -7,7 +7,7 @@ function Card({ pic, isBorderLeft }) {
           style={{
             translate: isBorderLeft ? "2% 2%" : "-2% -2%",
           }}
-          className="h-[300px] w-[400px] rounded-2xl"
+          className="h-[300px] w-[500px] rounded-2xl"
           src={pic}
           alt=""
         />

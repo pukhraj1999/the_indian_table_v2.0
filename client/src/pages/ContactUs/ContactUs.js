@@ -14,19 +14,19 @@ function ContactUs() {
           <div className="lg:w-96 2xl:w-96 [&>*]:my-6">
             <Detail
               title="Address"
-              content="  68 Nelson St, Wallsend
+              content="10/68 Nelson St, Wallsend
               NSW 2287, Australia"
               link="https://www.google.com/maps/place/The+Indian+table/@-32.9001426,151.6665429,17z/data=!3m1!4b1!4m5!3m4!1s0x6b733fd111ae9fbf:0x999426709f73273b!8m2!3d-32.9001841!4d151.668693"
             />
             <Detail
               title="Number"
-              content="+61 0249500621"
+              content="+61 02 4950 0621"
               link="tel:0249500621"
             />
             <Detail
               title="Email"
-              content="anz.support@datman.je"
-              link="mailto:anz.support@datman.je"
+              content="theindiantable2021@gmail.com"
+              link="mailto:theindiantable2021@gmail.com"
             />
             <hr className="text-primary" />
             <div className="text-3xl flex justify-center text-primary [&>*]:mx-6 [&>*]:mb-6">
