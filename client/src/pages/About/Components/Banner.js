@@ -22,12 +22,12 @@ function Banner({ pic, title, content, orderChange, isBorderLeft }) {
           orderChange ? `2xl:order-1 lg:order-1` : ``
         }`}
       >
-        <div className="border-2 border-primary rounded-2xl">
+        <div className="border-2 border-primary rounded-2xl lg:m-8 2xl:m-8 m-4">
           <img
             style={{
-              translate: isBorderLeft ? "3% 3%" : "-3% -3%",
+              translate: isBorderLeft ? "2% 2%" : "-2% -2%",
             }}
-            className="h-[300px] w-[300px] lg:h-[500px] lg:w-[500px] 2xl:h-[500px] 2xl:w-[500px] rounded-2xl"
+            className=" rounded-2xl"
             src={pic}
             alt=""
           />

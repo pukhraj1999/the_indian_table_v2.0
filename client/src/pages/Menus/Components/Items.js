@@ -11,7 +11,7 @@ function Items({ name, ingred, price }) {
             style={{
               translate: "35% -40%",
             }}
-            className="flex justify-center items-center  h-14 w-14 bg-secondary text-black font-bold p-1 rounded-full drop-shadow-2xl"
+            className="flex justify-center items-center  h-14 w-14 bg-secondary text-black font-bold p-1 rounded-full"
           >
             <span> {price}</span>
           </p>

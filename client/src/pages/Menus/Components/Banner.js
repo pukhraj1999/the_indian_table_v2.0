@@ -9,12 +9,12 @@ function Banner({ pic, link }) {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         width: "100%",
-        marginBlock: "2rem",
+        marginBottom: "2rem",
       }}
     >
       <div className="flex justify-center items-center">
         <div
-          className="[&>*]:my-2 px-5 my-48"
+          className="[&>*]:my-2 px-5 my-36"
           data-aos="fade-down"
           data-aos-delay="200"
           data-aos-duration="1000"

@@ -38,12 +38,12 @@ function Home() {
           </div>
         </div>
         <div className="flex justify-center items-center my-4">
-          <div className="border-2 border-primary rounded-2xl">
+          <div className="border-2 border-primary rounded-2xl lg:m-8 2xl:m-8 m-4">
             <img
               style={{
-                translate: "-3% -3%",
+                translate: "-2% -2%",
               }}
-              className="h-[300px] w-[300px] lg:h-[500px] lg:w-[500px] 2xl:h-[500px] 2xl:w-[500px] rounded-2xl"
+              className="rounded-2xl"
               src={food10}
               alt=""
             />
@@ -56,7 +56,7 @@ function Home() {
         <p className="text-2xl px-1">Popular Dishes</p>
         <div className="bg-secondary w-[1.5rem] h-[2px]"></div>
       </div>
-      <div className="grid lg:grid-cols-3 2xl:grid-cols-3 [&>*]:p-4 [&>*]:my-2">
+      <div className="grid lg:grid-cols-3 2xl:grid-cols-3 [&>*]:p-4 [&>*]:my-2 items-center">
         <Card
           title="ALOO KI CHATPATI CHAAT"
           content="Lightly spiced potato cutlets finished with chickpeas & topped
@@ -77,7 +77,6 @@ function Home() {
           pic={food3}
         />
       </div>
-
       <Feedback />
     </div>
   );

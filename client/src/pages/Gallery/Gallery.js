@@ -43,7 +43,7 @@ function Gallery() {
       <Banner pic={food12} link="#gallery" />
       <div
         id="gallery"
-        className="grid lg:grid-cols-3 2xl:grid-cols-3  [&>*]:my-3 px-6 [&>*]:p-4"
+        className="grid md:grid-cols-2 2xl:grid-cols-4 lg:grid-cols-4"
       >
         <Card pic={place1} isBorderLeft={true} />
         <Card pic={place2} isBorderLeft={false} />

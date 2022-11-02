@@ -13,7 +13,7 @@ function Navbar() {
   };
   return (
     <header>
-      <nav className="flex justify-between items-center p-4 lg:py-4 2xl:py-4 lg:px-10 2xl:px-10">
+      <nav className="flex justify-between items-center  lg:px-10 2xl:px-10">
         <div className="nav__left">
           <img className="h-20" src={logo} alt="" />
         </div>
